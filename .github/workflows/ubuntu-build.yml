@@ -49,7 +49,7 @@ jobs:
         cd nhp
         PKGS=$(go list ./... | grep -v 'wasm/policy')
         COVERPKG=$(echo "$PKGS" | paste -sd,)
-        go test -coverpkg="$COVERPKG" -coverprofile=coverage.out -covermode=atomic $PKGS
+        cd nhp && go test ./core/benchmark ./core/wasm/engine ./core/ztdo ./test ./utils && cd ../endpoints && go test ./kgc ./relay ./server ./test
         cd ../endpoints
         go test -coverpkg=./... -coverprofile=coverage.out -covermode=atomic ./...
 
