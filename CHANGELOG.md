@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0](https://github.com/OpenNHP/opennhp/compare/v1.0.0...v1.1.0) (2026-05-16)
+
+
+### Features
+
+* **js-agent:** add CBOR token support for loading NHP-Agent parameters ([1fb9793](https://github.com/OpenNHP/opennhp/commit/1fb979382c69d2a289a4fa51b888e069da422cd9))
+* **js-agent:** add CBOR token support for loading NHP-Agent parameters ([cc36a68](https://github.com/OpenNHP/opennhp/commit/cc36a684348b57bf348301bcf126f17d8a8c04e2))
+
+
+### Bug Fixes
+
+* address code review feedback for CBOR token modal ([c245470](https://github.com/OpenNHP/opennhp/commit/c245470358412b8650496aa58536d8ff4a916ade))
+* **js-agent:** address code review feedback for CBOR token modal ([08598cc](https://github.com/OpenNHP/opennhp/commit/08598cc5b5915ba97137854003c44dcc225145ae))
+
 ## [1.0.0](https://github.com/OpenNHP/opennhp/compare/v0.7.3...v1.0.0) (2026-05-15)
 
 
